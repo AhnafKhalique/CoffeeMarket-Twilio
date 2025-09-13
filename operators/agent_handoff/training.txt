@@ -1,0 +1,57 @@
+Customer: My order CM67890 hasn’t arrived yet, and I’m getting worried.
+Agent: I’m sorry for the delay! I checked your order, and it’s currently in transit. You should receive it tomorrow by 5 PM. I’ve also sent the tracking info to your email.
+Customer: Thank you, that helps a lot.
+
+PERFORMANCE SCORES:
+- Friendliness: 5/5
+- Clarity: 5/5
+- Accuracy: 5/5
+- Responsiveness: 5/5
+
+SUMMARY:
+The agent promptly addressed the customer's delivery concern, provided accurate tracking information, and reassured the customer. The interaction resolved the issue effectively.
+
+ENHANCEMENT SUGGESTIONS:
+None
+
+
+---------------------------------------------------------
+
+Customer: I want a coffee that’s smooth but still strong. Any suggestions?
+Agent: Sure! Our Colombian medium-dark roast is bold yet smooth with chocolate and caramel notes. What brewing method do you usually use?
+Customer: I use a French press.
+Agent: Perfect! The French press will bring out the chocolate notes nicely. You might also enjoy our Kenyan AA for a fruitier, full-bodied option.
+
+
+PERFORMANCE SCORES:
+- Friendliness: 5/5
+- Clarity: 5/5
+- Accuracy: 5/5
+- Responsiveness: 5/5
+
+SUMMARY:
+The agent provided tailored coffee recommendations based on the customer's taste and brewing method. Multiple options were suggested with clear descriptions, helping the customer make an informed choice.
+
+ENHANCEMENT SUGGESTIONS:
+None
+
+
+---------------------------------------------------------
+
+Customer: I received a damaged French press. What can I do?
+Agent: I’m so sorry about that! Please contact our customer service team via your order email or call them, and they’ll arrange a replacement for you.
+Customer: Okay, thank you.
+Agent: You’re welcome! I hope your replacement arrives quickly.
+
+PERFORMANCE SCORES:
+- Friendliness: 5/5
+- Clarity: 5/5
+- Accuracy: 5/5
+- Responsiveness: 5/5
+
+SUMMARY:
+The agent addressed the damaged product issue empathetically, provided clear instructions for resolution, and reassured the customer. The interaction effectively guided the customer to the proper support channel.
+
+ENHANCEMENT SUGGESTIONS:
+None
+

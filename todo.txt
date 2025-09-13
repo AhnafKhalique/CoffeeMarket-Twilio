@@ -1,0 +1,42 @@
+code cleanup
+check best practices
+check prompts and tools - restrict it further etc
+setup github
+
+issue with 
+ - intersitials only triggers when tool call? or too late?
+ - code cleanup
+ - make sure tools work
+ - read the code
+ - make sure streaming is actually done properly
+ 
+do the slides tech talk stuff
+conversationalintelligence stuff
+check content and output - make it more restricted
+do the best practices stuff
+code check
+
+
+app
+conversation
+setup
+agent
+llm_handler
+utils
+operators
+loaders
+constants
+
+
+clean codebase and ready for public viewing
+restrict what llm can do etc - e.g. telling customer how they can order
+check best practices - the website, the two tech slicdes, and double check the intial pwoerpoint slide
+create slidees
+create demo
+check if there are any issues
+
+
+
+make sure to turn on conversationalintelligence
+
+presentation/slides etc

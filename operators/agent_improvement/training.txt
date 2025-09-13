@@ -1,0 +1,96 @@
+Customer: Hi, I like strong coffee but not too bitter. What do you recommend?
+Assistant: Great! I’d suggest our Colombian medium-dark roast. It’s bold but smooth, with chocolate and caramel notes. What brewing method do you use?
+Customer: That sounds perfect, I use a French press.
+Assistant: Brilliant choice then — it’ll taste rich and smooth in a French press.
+
+CUSTOMER INTENT & TOPICS:
+Summary: The customer asked for a strong but smooth coffee recommendation.
+Topics: coffee recommendations, flavour preferences
+Resolution Status: fully
+
+UNMET REQUESTS & FEATURE GAPS:
+Unmet Requests: None
+Suggested Features: None
+
+SENTIMENT & EMOTIONAL TONE:
+Overall Sentiment: positive
+Sentiment Changes: Neutral at the start, Positive once given recommendation
+
+AGENT PERFORMANCE:
+Strengths: Gave a clear, tailored recommendation, Friendly and conversational tone
+Weaknesses: None
+
+CONVERSATION QUALITY METRICS:
+Issue Resolved: Yes
+Notes: Customer's request was fully addressed with a relevant recommendation
+
+OVERALL RECOMMENDATIONS:
+Agent Improvements: None
+Product/Service Improvements: None
+Customer Experience Enhancements: Continue offering taste-based recommendations in a conversational way
+
+---------------------------------------------------------
+
+Customer: Can you place an order for me?
+Assistant: I can’t process orders through this call, but I can help you find what you’re looking for! You can place orders on our website or visit our store. What coffee were you interested in?
+Customer: Oh, okay. I’ll order online.
+
+CUSTOMER INTENT & TOPICS:
+Summary: The customer asked the assistant to place an order.
+Topics: order placement
+Resolution Status: unresolved
+
+UNMET REQUESTS & FEATURE GAPS:
+Unmet Requests: Placing an order directly
+Suggested Features: Ability to process orders over the phone
+
+SENTIMENT & EMOTIONAL TONE:
+Overall Sentiment: neutral
+Sentiment Changes: Neutral at the start, Slight disappointment when order not possible
+
+AGENT PERFORMANCE:
+Strengths: Politely redirected customer to correct channel, Stayed friendly
+Weaknesses: Unable to fulfil main customer request
+
+CONVERSATION QUALITY METRICS:
+Issue Resolved: No
+Notes: Customer had to complete task independently online
+
+OVERALL RECOMMENDATIONS:
+Agent Improvements: Acknowledge inconvenience with more empathy
+Product/Service Improvements: Consider adding secure phone ordering in the future
+Customer Experience Enhancements: Offer to guide them through online ordering step-by-step
+
+
+---------------------------------------------------------
+
+Customer: What’s the status of my order CM12345?
+Assistant: Let me check that for you. Order CM12345 shipped yesterday and should arrive tomorrow by 6 PM. You’ll get a tracking number by email soon.
+Customer: I never received the email.
+Assistant: I can confirm the parcel’s on its way, but if the email hasn’t arrived, please check your junk folder. If it’s not there, contact customer service and they’ll resend it.
+
+CUSTOMER INTENT & TOPICS:
+Summary: The customer wanted to know the delivery status of their order.
+Topics: delivery status, tracking information
+Resolution Status: partially
+
+UNMET REQUESTS & FEATURE GAPS:
+Unmet Requests: Resending tracking email
+Suggested Features: Ability to resend tracking emails automatically
+
+SENTIMENT & EMOTIONAL TONE:
+Overall Sentiment: slightly negative
+Sentiment Changes: Neutral at the start, Mild frustration when email missing, Neutral when given workaround
+
+AGENT PERFORMANCE:
+Strengths: Accurately provided delivery status, Suggested troubleshooting step
+Weaknesses: Unable to resolve missing email directly
+
+CONVERSATION QUALITY METRICS:
+Issue Resolved: No
+Notes: Delivery status given, but customer must still contact service for email issue
+
+OVERALL RECOMMENDATIONS:
+Agent Improvements: Show more empathy when customers experience missing information
+Product/Service Improvements: Enable the assistant to resend confirmation emails
+Customer Experience Enhancements: Offer to escalate automatically instead of directing to service team

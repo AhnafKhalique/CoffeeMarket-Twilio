@@ -1,0 +1,17 @@
+.venv/
+__pycache__/
+__pycache__
+*.log
+.vscode/
+.env
+
+operators/agent_improvement/*
+operators/agent_handoff/*
+
+!operators/agent_improvement/prompt.txt
+!operators/agent_improvement/training.txt
+
+!operators/agent_handoff/prompt.txt
+!operators/agent_handoff/training.txt
+
+test/

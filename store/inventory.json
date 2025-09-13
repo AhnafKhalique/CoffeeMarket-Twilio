@@ -1,0 +1,111 @@
+{
+  "coffee_beans": {
+    "colombian_supremo": {
+      "name": "Colombian Supremo",
+      "stock_level": 45,
+      "unit": "bags",
+      "price": "£16.99",
+      "status": "in_stock",
+      "reorder_threshold": 10,
+      "last_updated": "2025-08-31"
+    },
+    "ethiopian_yirgacheffe": {
+      "name": "Ethiopian Yirgacheffe",
+      "stock_level": 23,
+      "unit": "bags",
+      "price": "£19.99",
+      "status": "in_stock",
+      "reorder_threshold": 15,
+      "last_updated": "2025-08-31"
+    },
+    "guatemalan_antigua": {
+      "name": "Guatemalan Antigua",
+      "stock_level": 8,
+      "unit": "bags",
+      "price": "£18.50",
+      "status": "low_stock",
+      "reorder_threshold": 10,
+      "last_updated": "2025-08-31"
+    },
+    "house_blend": {
+      "name": "House Blend",
+      "stock_level": 67,
+      "unit": "bags",
+      "price": "£14.50",
+      "status": "in_stock",
+      "reorder_threshold": 20,
+      "last_updated": "2025-08-31"
+    },
+    "italian_espresso_blend": {
+      "name": "Italian Espresso Blend",
+      "stock_level": 0,
+      "unit": "bags",
+      "price": "£17.99",
+      "status": "out_of_stock",
+      "reorder_threshold": 12,
+      "last_updated": "2025-08-31",
+      "expected_restock": "2025-09-05"
+    },
+    "breakfast_blend": {
+      "name": "Breakfast Blend",
+      "stock_level": 34,
+      "unit": "bags",
+      "price": "£14.99",
+      "status": "in_stock",
+      "reorder_threshold": 15,
+      "last_updated": "2025-08-31"
+    },
+    "french_roast": {
+      "name": "French Roast",
+      "stock_level": 12,
+      "unit": "bags",
+      "price": "£15.50",
+      "status": "in_stock",
+      "reorder_threshold": 10,
+      "last_updated": "2025-08-31"
+    },
+    "decaf_colombia": {
+      "name": "Decaf Colombia",
+      "stock_level": 6,
+      "unit": "bags",
+      "price": "£17.50",
+      "status": "low_stock",
+      "reorder_threshold": 8,
+      "last_updated": "2025-08-31"
+    }
+  },
+  "equipment": {
+    "french_press": {
+      "name": "French Press",
+      "stock_level": 15,
+      "unit": "units",
+      "price": "£26.99",
+      "status": "in_stock",
+      "reorder_threshold": 5
+    },
+    "espresso_machine": {
+      "name": "Espresso Machine",
+      "stock_level": 3,
+      "unit": "units",
+      "price": "£269.99",
+      "status": "low_stock",
+      "reorder_threshold": 2
+    },
+    "coffee_grinder": {
+      "name": "Coffee Grinder",
+      "stock_level": 8,
+      "unit": "units",
+      "price": "£79.99",
+      "status": "in_stock",
+      "reorder_threshold": 3
+    },
+    "milk_frother": {
+      "name": "Milk Frother",
+      "stock_level": 12,
+      "unit": "units",
+      "price": "£41.99",
+      "status": "in_stock",
+      "reorder_threshold": 4
+    }
+  }
+}

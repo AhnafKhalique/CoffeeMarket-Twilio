@@ -1,0 +1,196 @@
+{
+  "coffee_beans": {
+    "single_origin": {
+      "colombian_supremo": {
+        "name": "Colombian Supremo",
+        "origin": "Colombia",
+        "roast_level": "Medium",
+        "taste_profile": {
+          "body": "Full-bodied",
+          "acidity": "Bright, citrusy",
+          "flavor_notes": ["Chocolate", "Caramel", "Nutty", "Orange zest"],
+          "sweetness": "Natural sweetness with brown sugar notes"
+        },
+        "brewing_methods": ["Drip", "Pour-over", "French press", "Espresso"],
+        "strength": "Medium-Strong",
+        "description": "Our most popular single-origin coffee with a perfect balance of richness and brightness. Ideal for those who want a strong but smooth cup without bitterness.",
+        "price": "£14.99/lb",
+        "best_for": ["First-time specialty coffee drinkers", "Morning coffee", "Espresso blends"]
+      },
+      "ethiopian_yirgacheffe": {
+        "name": "Ethiopian Yirgacheffe",
+        "origin": "Ethiopia",
+        "roast_level": "Light-Medium",
+        "taste_profile": {
+          "body": "Light to medium",
+          "acidity": "Wine-like, bright",
+          "flavor_notes": ["Floral", "Bergamot", "Lemon", "Tea-like", "Blueberry"],
+          "sweetness": "Delicate, honey-like"
+        },
+        "brewing_methods": ["Pour-over", "Drip", "Cold brew"],
+        "strength": "Light-Medium",
+        "description": "A delicate, tea-like coffee with complex floral and citrus notes. Perfect for those who prefer lighter, more nuanced flavors.",
+        "price": "£17.99/lb",
+        "best_for": ["Tea drinkers transitioning to coffee", "Afternoon coffee", "Pour-over enthusiasts"]
+      },
+      "guatemalan_antigua": {
+        "name": "Guatemalan Antigua",
+        "origin": "Guatemala",
+        "roast_level": "Medium-Dark",
+        "taste_profile": {
+          "body": "Full-bodied",
+          "acidity": "Balanced",
+          "flavor_notes": ["Dark chocolate", "Spice", "Smoke", "Cedar"],
+          "sweetness": "Rich, molasses-like"
+        },
+        "brewing_methods": ["French press", "Espresso", "Drip"],
+        "strength": "Strong",
+        "description": "A robust coffee with smoky, spicy notes and rich chocolate undertones. Grown in volcanic soil for unique mineral complexity.",
+        "price": "£16.99/lb",
+        "best_for": ["Strong coffee lovers", "Espresso", "After-dinner coffee"]
+      },
+      "jamaican_blue_mountain": {
+        "name": "Jamaican Blue Mountain",
+        "origin": "Jamaica",
+        "roast_level": "Medium",
+        "taste_profile": {
+          "body": "Medium",
+          "acidity": "Mild, clean",
+          "flavor_notes": ["Mild", "Sweet", "Clean", "Balanced"],
+          "sweetness": "Subtle, refined"
+        },
+        "brewing_methods": ["Drip", "Pour-over"],
+        "strength": "Medium",
+        "description": "One of the world's most prized coffees, known for its exceptional smoothness and lack of bitterness. Extremely well-balanced.",
+        "price": "£39.99/lb",
+        "best_for": ["Special occasions", "Gift giving", "Smooth coffee preferences"]
+      }
+    },
+    "blends": {
+      "house_blend": {
+        "name": "CoffeeMarket House Blend",
+        "composition": "60% Colombian, 25% Brazilian, 15% Guatemalan",
+        "roast_level": "Medium",
+        "taste_profile": {
+          "body": "Medium-full",
+          "acidity": "Balanced",
+          "flavor_notes": ["Chocolate", "Nuts", "Vanilla", "Caramel"],
+          "sweetness": "Well-rounded sweetness"
+        },
+        "brewing_methods": ["Drip", "French press", "Espresso"],
+        "strength": "Medium",
+        "description": "Our signature blend designed for everyday enjoyment. Perfectly balanced with consistent flavor that works well any time of day.",
+        "price": "£12.99/lb",
+        "best_for": ["Daily drinking", "Office coffee", "Versatile brewing"]
+      },
+      "espresso_blend": {
+        "name": "Italian Espresso Blend",
+        "composition": "50% Brazilian, 30% Colombian, 20% Guatemalan",
+        "roast_level": "Dark",
+        "taste_profile": {
+          "body": "Full-bodied, syrupy",
+          "acidity": "Low",
+          "flavor_notes": ["Dark chocolate", "Roasted nuts", "Caramelized sugar"],
+          "sweetness": "Rich, deep sweetness"
+        },
+        "brewing_methods": ["Espresso", "Moka pot"],
+        "strength": "Strong",
+        "description": "A traditional Italian-style espresso blend with rich crema and intense flavor. Perfect for espresso drinks and strong coffee lovers.",
+        "price": "£15.99/lb",
+        "best_for": ["Espresso machines", "Cappuccinos", "Lattes", "Strong coffee preference"]
+      },
+      "breakfast_blend": {
+        "name": "Morning Breakfast Blend",
+        "composition": "70% Colombian, 20% Kenyan, 10% Costa Rican",
+        "roast_level": "Medium-Light",
+        "taste_profile": {
+          "body": "Medium",
+          "acidity": "Bright, crisp",
+          "flavor_notes": ["Citrus", "Berry", "Light chocolate", "Clean finish"],
+          "sweetness": "Bright, fruity sweetness"
+        },
+        "brewing_methods": ["Drip", "Pour-over"],
+        "strength": "Medium",
+        "description": "A bright, energizing blend perfect for starting your day. Clean and crisp with enough body to pair well with breakfast foods.",
+        "price": "£13.99/lb",
+        "best_for": ["Morning coffee", "Breakfast pairing", "Light roast lovers"]
+      }
+    },
+    "specialty": {
+      "decaf_colombian": {
+        "name": "Decaf Colombian (Swiss Water Process)",
+        "origin": "Colombia",
+        "roast_level": "Medium",
+        "taste_profile": {
+          "body": "Medium-full",
+          "acidity": "Mild",
+          "flavor_notes": ["Chocolate", "Nuts", "Mild fruit"],
+          "sweetness": "Gentle sweetness"
+        },
+        "brewing_methods": ["Drip", "French press", "Pour-over"],
+        "strength": "Medium (caffeine-free)",
+        "description": "All the flavor of our Colombian beans without the caffeine. Uses chemical-free Swiss Water Process to maintain flavor integrity.",
+        "price": "£16.99/lb",
+        "best_for": ["Evening coffee", "Caffeine-sensitive individuals", "Pregnant women"]
+      },
+      "organic_fair_trade": {
+        "name": "Organic Fair Trade Blend",
+        "composition": "Mixed Central and South American origins",
+        "roast_level": "Medium",
+        "taste_profile": {
+          "body": "Medium",
+          "acidity": "Balanced",
+          "flavor_notes": ["Earth", "Chocolate", "Subtle fruit", "Clean"],
+          "sweetness": "Natural, unrefined"
+        },
+        "brewing_methods": ["Drip", "French press", "Pour-over"],
+        "strength": "Medium",
+        "description": "Ethically sourced and organically grown. Supports sustainable farming practices while delivering great taste.",
+        "price": "£17.99/lb",
+        "best_for": ["Environmentally conscious consumers", "Organic preference", "Ethical sourcing"]
+      },
+      "cold_brew_blend": {
+        "name": "Cold Brew Concentrate Blend",
+        "composition": "40% Brazilian, 35% Colombian, 25% Guatemalan",
+        "roast_level": "Medium-Dark",
+        "taste_profile": {
+          "body": "Full, smooth",
+          "acidity": "Low",
+          "flavor_notes": ["Chocolate", "Vanilla", "Smooth", "Rich"],
+          "sweetness": "Natural sweetness enhanced by cold brewing"
+        },
+        "brewing_methods": ["Cold brew", "Iced coffee"],
+        "strength": "Medium-Strong",
+        "description": "Specially blended for cold brewing. Low acidity and smooth flavor that concentrates beautifully when brewed cold.",
+        "price": "£14.99/lb",
+        "best_for": ["Cold brew makers", "Iced coffee", "Summer drinks", "Smooth coffee preference"]
+      }
+    }
+  },
+  "brewing_equipment": {
+    "french_press": {
+      "name": "French Press (34oz)",
+      "description": "Classic immersion brewing method for full-bodied coffee",
+      "price": "£24.99",
+      "best_for": ["Full-bodied coffees", "Colombian", "Guatemalan", "House Blend"]
+    },
+    "pour_over_dripper": {
+      "name": "Ceramic Pour-Over Dripper",
+      "description": "Precision brewing for clean, bright flavors",
+      "price": "£19.99",
+      "best_for": ["Ethiopian Yirgacheffe", "Breakfast Blend", "Single origins"]
+    },
+    "espresso_machine": {
+      "name": "Semi-Automatic Espresso Machine",
+      "description": "Professional-quality espresso at home",
+      "price": "£249.99",
+      "best_for": ["Espresso Blend", "Colombian", "Strong coffee lovers"]
+    },
+    "coffee_grinder": {
+      "name": "Burr Coffee Grinder",
+      "description": "Consistent grind for optimal extraction",
+      "price": "£64.99",
+      "best_for": ["All coffee types", "Fresh grinding", "Flavor preservation"]
+    }
+  }
+}

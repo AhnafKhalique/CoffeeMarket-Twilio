@@ -1,0 +1,246 @@
+{
+  "company_info": {
+    "name": "CoffeeMarket",
+    "tagline": "Your Premium Coffee Destination",
+    "description": "CoffeeMarket is a specialty coffee retailer offering premium single-origin beans, expertly crafted blends, and professional brewing equipment.",
+    "founded": "2018",
+    "mission": "To bring the world's finest coffee directly to your cup, supporting sustainable farming and fair trade practices."
+  },
+  "store_policies": {
+    "shipping": {
+      "standard_delivery": {
+        "time": "2-4 business days",
+        "cost": "Free on orders over £30, otherwise £4.99",
+        "coverage": "Nationwide delivery across the UK"
+      },
+      "express_delivery": {
+        "time": "1-2 business days",
+        "cost": "£9.99",
+        "coverage": "Major UK cities and towns"
+      },
+      "same_day_delivery": {
+        "time": "Same day (order by 2 PM)",
+        "cost": "£15.99",
+        "coverage": "Select cities: London, Manchester, Birmingham, Edinburgh, Bristol"
+      }
+    },
+    "returns": {
+      "policy": "30-day satisfaction guarantee",
+      "conditions": "Unopened packages in original condition",
+      "process": "Contact customer service with order number",
+      "refund_time": "3-5 business days after return received",
+      "damaged_items": "Full refund or replacement, we cover return shipping"
+    },
+    "cancellations": {
+      "eligible_status": ["confirmed", "processing"],
+      "non_eligible": ["in_transit", "delivered"],
+      "refund_time": "3-5 business days to original payment method",
+      "process": "Can be done through customer service or voice assistant"
+    }
+  },
+  "brewing_guides": {
+    "french_press": {
+      "grind": "Coarse",
+      "ratio": "1:15 (30g coffee to 450ml water)",
+      "water_temp": "200°F (just off boiling)",
+      "brew_time": "4 minutes",
+      "steps": [
+        "Add coarse ground coffee to French press",
+        "Pour hot water, stir gently",
+        "Place lid, don't press yet",
+        "Wait 4 minutes",
+        "Press plunger down slowly",
+        "Serve immediately"
+      ]
+    },
+    "pour_over": {
+      "grind": "Medium-fine",
+      "ratio": "1:16 (25g coffee to 400ml water)",
+      "water_temp": "195-205°F",
+      "brew_time": "3-4 minutes total",
+      "steps": [
+        "Rinse filter with hot water",
+        "Add ground coffee, create small well in center",
+        "Bloom: Pour 2x coffee weight in water, wait 30 seconds",
+        "Pour in slow, circular motions",
+        "Total brew time 3-4 minutes"
+      ]
+    },
+    "espresso": {
+      "grind": "Fine",
+      "dose": "18-20g for double shot",
+      "extraction_time": "25-30 seconds",
+      "yield": "36-40ml",
+      "pressure": "9 bars",
+      "water_temp": "190-196°F"
+    },
+    "cold_brew": {
+      "grind": "Coarse",
+      "ratio": "1:8 (125g coffee to 1L water)",
+      "brew_time": "12-24 hours",
+      "temperature": "Room temperature or refrigerated",
+      "serving": "Dilute 1:1 with water or milk, serve over ice"
+    }
+  },
+  "coffee_education": {
+    "roast_levels": {
+      "light": {
+        "description": "Light brown, no oil on surface",
+        "characteristics": "Bright acidity, floral and fruity notes, origin flavors prominent",
+        "best_for": "Pour-over, drip coffee",
+        "examples": ["Ethiopian Yirgacheffe", "Breakfast Blend"]
+      },
+      "medium": {
+        "description": "Medium brown, balanced flavor",
+        "characteristics": "Balanced acidity and body, caramelized sugars, versatile",
+        "best_for": "Most brewing methods",
+        "examples": ["Colombian Supremo", "House Blend"]
+      },
+      "medium_dark": {
+        "description": "Rich, dark color with some oil",
+        "characteristics": "Lower acidity, fuller body, chocolate and spice notes",
+        "best_for": ["French press", "Espresso"],
+        "examples": ["Guatemalan Antigua"]
+      },
+      "dark": {
+        "description": "Dark brown to black, oily surface",
+        "characteristics": "Low acidity, full body, roasted flavors dominant",
+        "best_for": "Espresso, strong coffee preferences",
+        "examples": ["Italian Espresso Blend"]
+      }
+    },
+    "flavor_wheel": {
+      "fruity": ["Berry", "Citrus", "Stone fruit", "Tropical"],
+      "floral": ["Jasmine", "Rose", "Lavender", "Tea-like"],
+      "sweet": ["Caramel", "Vanilla", "Honey", "Brown sugar"],
+      "nutty": ["Almond", "Hazelnut", "Peanut", "Walnut"],
+      "chocolate": ["Dark chocolate", "Milk chocolate", "Cocoa"],
+      "spicy": ["Cinnamon", "Clove", "Black pepper", "Cardamom"],
+      "earthy": ["Tobacco", "Cedar", "Leather", "Mushroom"]
+    }
+  },
+  "sustainability": {
+    "certifications": {
+      "fair_trade": "Ensures farmers receive fair wages and work in safe conditions",
+      "organic": "Grown without synthetic pesticides or fertilizers",
+      "rainforest_alliance": "Promotes biodiversity and sustainable farming practices",
+      "bird_friendly": "Shade-grown coffee that protects bird habitats"
+    },
+    "initiatives": {
+      "direct_trade": "We work directly with coffee farms to ensure fair pricing",
+      "carbon_neutral": "All shipping is carbon-neutral through offset programs",
+      "packaging": "Recyclable bags and compostable packaging materials",
+      "community_support": "5% of profits support coffee farming communities"
+    }
+  },
+  "loyalty_program": {
+    "name": "CoffeeMarket Rewards",
+    "how_it_works": "Earn 1 point per £1 spent",
+    "benefits": {
+      "100_points": "£4 reward",
+      "birthday_reward": "Free bag of coffee on your birthday",
+      "early_access": "First access to new coffee releases",
+      "free_shipping": "Free shipping on all orders for members"
+    },
+    "tiers": {
+      "bronze": "0-499 points annually",
+      "silver": "500-999 points annually - 10% off equipment",
+      "gold": "1000+ points annually - 15% off everything"
+    }
+  },
+  "equipment_care": {
+    "coffee_grinder": {
+      "cleaning": "Clean burrs weekly with grinder cleaning tablets",
+      "maintenance": "Calibrate monthly, replace burrs every 2-3 years",
+      "storage": "Keep in dry place, empty hopper when not in use"
+    },
+    "espresso_machine": {
+      "daily": "Rinse group head, empty drip tray",
+      "weekly": "Backflush with cleaning powder",
+      "monthly": "Descale with manufacturer-approved solution",
+      "water": "Use filtered water to prevent mineral buildup"
+    },
+    "french_press": {
+      "cleaning": "Disassemble completely, wash all parts",
+      "maintenance": "Replace mesh filter annually",
+      "storage": "Store with plunger up to prevent seal damage"
+    }
+  },
+  "seasonal_offerings": {
+    "spring": {
+      "featured": "Light roasts and floral single origins",
+      "special": "Cherry Blossom Blend (limited edition)"
+    },
+    "summer": {
+      "featured": "Cold brew blends and iced coffee",
+      "special": "Tropical Fruit Notes collection"
+    },
+    "fall": {
+      "featured": "Medium-dark roasts with spice notes",
+      "special": "Pumpkin Spice Blend and Harvest collection"
+    },
+    "winter": {
+      "featured": "Dark roasts and holiday blends",
+      "special": "Holiday Spice Blend and Winter Warmth collection"
+    }
+  },
+  "troubleshooting": {
+    "bitter_coffee": {
+      "causes": ["Over-extraction", "Too fine grind", "Water too hot", "Over-roasted beans"],
+      "solutions": ["Use coarser grind", "Lower water temperature", "Reduce brew time", "Try lighter roast"]
+    },
+    "sour_coffee": {
+      "causes": ["Under-extraction", "Too coarse grind", "Water too cool", "Under-roasted beans"],
+      "solutions": ["Use finer grind", "Increase water temperature", "Extend brew time", "Try darker roast"]
+    },
+    "weak_coffee": {
+      "causes": ["Too little coffee", "Grind too coarse", "Brew time too short"],
+      "solutions": ["Increase coffee amount", "Use finer grind", "Extend brew time"]
+    },
+    "equipment_issues": {
+      "grinder_not_working": "Check power, clean burrs, contact support if needed",
+      "espresso_no_crema": "Check grind fineness, bean freshness, machine pressure",
+      "french_press_plunger_stuck": "Don't force, try twisting gently, may need cleaning"
+    }
+  },
+  "contact_info": {
+    "customer_service": {
+      "phone": "0800 COFFEE (0800 263 3331)",
+      "email": "support@coffeemarket.com",
+      "hours": "Monday-Friday 8 AM - 8 PM GMT, Saturday-Sunday 9 AM - 6 PM GMT",
+      "live_chat": "Available on website during business hours"
+    },
+    "locations": {
+      "headquarters": "London, England",
+      "roastery": "Edinburgh, Scotland",
+      "distribution_centers": ["London, England", "Manchester, England", "Birmingham, England", "Glasgow, Scotland"]
+    },
+    "social_media": {
+      "instagram": "@coffeemarket",
+      "facebook": "CoffeeMarket Official",
+      "youtube": "CoffeeMarket Brewing Guides"
+    }
+  },
+  "faq": {
+    "freshness": {
+      "q": "How long do coffee beans stay fresh?",
+      "a": "Whole beans stay fresh 2-4 weeks after roasting. Ground coffee should be used within 1-2 weeks. All our coffee shows roast date on packaging."
+    },
+    "storage": {
+      "q": "How should I store my coffee?",
+      "a": "Store in airtight container, away from light, heat, and moisture. Don't refrigerate or freeze. Our resealable bags work great for short-term storage."
+    },
+    "grinding": {
+      "q": "Should I buy whole beans or pre-ground?",
+      "a": "Whole beans stay fresh longer and give better flavor. We recommend grinding just before brewing. We offer free grinding service if you prefer."
+    },
+    "decaf": {
+      "q": "How is your decaf coffee processed?",
+      "a": "We use the Swiss Water Process - a chemical-free method that removes 99.9% of caffeine while preserving flavor."
+    },
+    "subscriptions": {
+      "q": "Do you offer coffee subscriptions?",
+      "a": "Yes! Choose frequency (weekly, bi-weekly, monthly), get 10% off, and free shipping. Modify or cancel anytime."
+    }
+  }
+}
