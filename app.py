@@ -66,7 +66,7 @@ def connect_customer(
             url=ws_url,
             welcomeGreeting=WELCOME_GREETING,
             hints=STT_HINTS,
-            # intelligence_service=intelligence_service_id,
+            intelligence_service=intelligence_service_id,
         )
 
         connect.append(cr)
