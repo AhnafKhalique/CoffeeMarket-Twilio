@@ -184,7 +184,48 @@ async def conversationrelay(websocket: WebSocket):
 
             # Handle error messages
             elif typ == "error":
-                logger.error(f"Error received for session {session_id}: {data.get('description')}")
+                error_description = data.get('description', 'Unknown error')
+                logger.error(f"Error received for session {session_id}: {error_description}")
+                
+                # Log to session logger if available
+                if session_id and session_id in session_state:
+                    call_sid = session_state.get(session_id, {}).get('call_sid', 'unknown')
+                    session_logger.error(
+                        f"Twilio error: {error_description}",
+                        extra={'session_id': session_id, 'call_sid': call_sid}
+                    )
+                
+                try:
+                    await websocket.send_json({
+                        "type": "text",
+                        "token": "I'm sorry, there was a technical issue with the call. Please try calling again.",
+                        "lang": "en-US",
+                        "last": True
+                    })
+                except Exception as send_error:
+                    logger.error(f"Failed to send error message to session {session_id}: {send_error}")
+                
+                # Send end message to terminate the call
+                try:
+                    await websocket.send_json({
+                        "type": "end"
+                    })
+                    logger.info(f"Sent end message for error in session {session_id}")
+                except Exception as end_error:
+                    logger.error(f"Failed to send end message to session {session_id}: {end_error}")
+
+                if session_id:
+                    call_sid = session_state.get(session_id, {}).get('call_sid')
+                    cleanup_session_data(session_id, call_sid)
+                
+                try:
+                    await websocket.close()
+                except Exception as close_error:
+                    logger.error(f"Failed to close WebSocket for session {session_id}: {close_error}")
+                
+                # Exit the message loop since connection is closed
+                break
+                    
             else:
                 logger.warning(f"Unknown message type '{typ}' from session {session_id}")
 
